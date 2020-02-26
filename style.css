@@ -257,3 +257,58 @@ ul {
 
 
 /*-------------video-----------------*/
+
+.video {
+background: #EEEFF1 ;
+}
+
+.video__title {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.video__description {
+    width: 540px;
+    text-align: center;
+
+}
+
+.video__youtube {
+    margin: 57px 0 100px;
+    width: 1110px;
+    height: 600px;
+}
+
+
+/*--------gallery---------*/
+.gallery {
+    padding: 28px 0 0 ;
+}
+
+.gallery__foto > :first-child {
+    margin-bottom: -4px;
+}
+
+.gallery__foto-list {
+    display: flex;
+}
+
+.gallery__foto-list li img {
+    width: 100%;
+}
+
+.gallery__foto-item {
+    height: 489px;
+}
+
+/*-------microsoft--------*/
+
+.microsoft {
+    padding: 0px;
+}
+
+.microsoft__container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px 0 100px 0;
+}
